@@ -1,0 +1,305 @@
+{
+    "v0": "V0",
+
+    "hosts": [
+      {
+        "host_name": "V0",
+        "System_level": "Enterprise"
+      },
+      {
+        "host_name": "V1",
+        "System_level": "Enterprise"
+      },
+      {
+        "host_name": "V2",
+        "System_level": "Management"
+      },
+      {
+        "host_name": "V3",
+        "System_level": "Management"
+      },
+      {
+        "host_name": "V4",
+        "System_level": "Supervision"
+      },
+      {
+        "host_name": "V5",
+        "System_level": "Supervision"
+      },
+      {
+        "host_name": "V6",
+        "System_level": "Supervision"
+      },
+      {
+        "host_name": "V7",
+        "System_level": "Supervision"
+      },
+      {
+        "host_name": "V8",
+        "System_level": "Supervision"
+      },
+      {
+        "host_name": "V9",
+        "System_level": "Control"
+      },
+      {
+        "host_name": "T",
+        "System_level": "Control"
+      }
+    ],
+
+    "edges": [
+      {
+        "edge_name": "E1",
+        "source": "V0",
+        "target": "V1",
+        "val": {
+          "C": [2,3,4],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 3.9,
+          "TFN": [1,2,3]
+        }
+      },
+      {
+        "edge_name": "E2",
+        "source": "V1",
+        "target": "V2",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [0,1,2],
+          "ES": 0.8,
+          "TFN": [1,2,3]
+        }
+      },
+      {
+        "edge_name": "E3",
+        "source": "V1",
+        "target": "V3",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 2.8,
+          "TFN": [1,2,3]
+        }
+      },
+      {
+        "edge_name": "E4",
+        "source": "V1",
+        "target": "V4",
+        "val":{
+          "C": [2,3,4],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 3.9,
+          "TFN": [2,3,4]
+        }
+      },
+      {
+        "edge_name": "E5",
+        "source": "V4",
+        "target": "V3",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 2.8,
+          "TFN": [1,2,3]
+        }
+      },
+      {
+        "edge_name": "E6",
+        "source": "V4",
+        "target": "V2",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [0,1,2],
+          "ES": 0.8,
+          "TFN": [1,2,3]
+        }
+      },
+      {
+        "edge_name": "E7",
+        "source": "V2",
+        "target": "V3",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 2.8,
+          "TFN": [1,2,3]
+        }
+      },
+      {
+        "edge_name": "E8",
+        "source": "V2",
+        "target": "V5",
+        "val":{
+          "C": [2,3,4],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 2.8,
+          "TFN": [2,3,4]
+        }
+      },
+      {
+        "edge_name": "E9",
+        "source": "V2",
+        "target": "V6",
+        "val":{
+          "C": [2,3,4],
+          "I": [0,1,2],
+          "A": [0,1,2],
+          "ES": 3.9,
+          "TFN": [2,3,4]
+        }
+      },
+      {
+        "edge_name": "E10",
+        "source": "V3",
+        "target": "V5",
+        "val":{
+          "C": [2,3,4],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 2.8,
+          "TFN": [2,3,4]
+        }
+      },
+      {
+        "edge_name": "E11",
+        "source": "V3",
+        "target": "V6",
+        "val":{
+          "C": [2,3,4],
+          "I": [0,1,2],
+          "A": [0,1,2],
+          "ES": 3.9,
+          "TFN": [2,3,4]
+        }
+      },
+      {
+        "edge_name": "E12",
+        "source": "V4",
+        "target": "V7",
+        "val":{
+          "C": [2,3,4],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 2.8,
+          "TFN": [3,4,5]
+        }
+      },
+      {
+        "edge_name": "E13",
+        "source": "V4",
+        "target": "V8",
+        "val":{
+          "C": [1,2,3],
+          "I": [1,2,3],
+          "A": [0,1,2],
+          "ES": 2.3,
+          "TFN": [3,4,5]
+        }
+      },
+      {
+        "edge_name": "E14",
+        "source": "V4",
+        "target": "V9",
+        "val":{
+          "C": [2,3,4],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 3.9,
+          "TFN": [4,5,6]
+        }
+      },
+      {
+        "edge_name": "E15",
+        "source": "V4",
+        "target": "T",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [0,1,2],
+          "ES": 3.9,
+          "TFN": [4,5,6]
+        }
+      },
+      {
+        "edge_name": "E16",
+        "source": "V5",
+        "target": "V9",
+        "val":{
+          "C": [2,3,4],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 3.9,
+          "TFN": [4,5,6]
+        }
+      },
+      {
+        "edge_name": "E17",
+        "source": "V6",
+        "target": "T",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [0,1,2],
+          "ES": 3.9,
+          "TFN": [4,5,6]
+        }
+      },
+      {
+        "edge_name": "E18",
+        "source": "V7",
+        "target": "V9",
+        "val":{
+          "C": [2,3,4],
+          "I": [2,3,4],
+          "A": [2,3,4],
+          "ES": 3.9,
+          "TFN": [4,5,6]
+        }
+      },
+      {
+        "edge_name": "E19",
+        "source": "V8",
+        "target": "T",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [0,1,2],
+          "ES": 3.9,
+          "TFN": [4,5,6]
+        }
+      },
+      {
+        "edge_name": "E20",
+        "source": "V9",
+        "target": "T",
+        "val":{
+          "C": [0,1,2],
+          "I": [2,3,4],
+          "A": [0,1,2],
+          "ES": 3.9,
+          "TFN": [4,5,6]
+        }
+      }
+    ],
+
+    "goal": [
+        {
+            "host": "T",
+            "System_level": "Control"
+        }
+    ],
+    "nums": [
+      16,
+      11,
+      20
+  ]
+  }

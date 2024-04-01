@@ -1,0 +1,11 @@
+{
+  "timeout": 1800,
+  "weight": "fuzzy_bwm",
+  "weight_input": "c4_c5_fuzzy_bwm.xlsx",
+  "rank": "mabac",
+  "nums":
+  [
+    [20,20,40]
+  ]
+  
+}
